@@ -1,0 +1,22 @@
+.header {
+    &-top {
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid $main-color;
+        &-left {
+            .header-info {
+                margin-right: 32px;
+                a{
+                    margin-left: 4px;
+                    font-size: 14px;
+                    line-height: 18px;
+                    font-weight: 600;
+                    color: $color-grey;
+                    
+                }
+            }
+        }
+    }
+    
+}

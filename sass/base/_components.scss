@@ -1,0 +1,21 @@
+.container {
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.btn-pink {
+    @include btn-pink;
+    &:hover {
+        @include btn-pink-hover;
+    }
+}
+
+.btn-outline-pink {
+    @include btn-ouline-pink;
+    &:hover {
+        @include btn-pink;
+    }
+}

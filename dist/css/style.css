@@ -1,0 +1,120 @@
+/* vietnamese */
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url("../../fonts/Quicksand/Quicksand-Light.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("../../fonts/Quicksand/Quicksand-Regular.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("../../fonts/Quicksand/Quicksand-Medium.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("../../fonts/Quicksand/Quicksand-SemiBold.ttf");
+}
+@font-face {
+  font-family: "Quicksand";
+  font-style: normal;
+  font-weight: 700;
+  font-display: swap;
+  src: url("../../fonts/Quicksand/Quicksand-Bold.ttf");
+}
+* {
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Quicksand";
+  line-height: 1.6rem;
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: #5A5A5A;
+}
+
+a {
+  color: #5A5A5A;
+}
+a:hover {
+  color: #FE6A84;
+  text-decoration: none;
+}
+
+svg {
+  fill: #FE6A84;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+ul li {
+  list-style: none;
+}
+
+.container {
+  width: 100%;
+  max-width: 1170px;
+  padding: 0 15px;
+  margin: auto;
+  box-sizing: border-box;
+}
+
+.btn-pink {
+  color: #fff;
+  background-color: #FE6A84;
+  border-color: #FE6A84;
+}
+.btn-pink:hover {
+  color: #fff;
+  background-color: #F35D78;
+  border-color: #F35D78;
+}
+
+.btn-outline-pink {
+  color: #FE6A84;
+  border-color: #FE6A84;
+}
+.btn-outline-pink:hover {
+  color: #fff;
+  background-color: #FE6A84;
+  border-color: #FE6A84;
+}
+
+.header-top {
+  height: 40px;
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #FE6A84;
+}
+.header-top-left .header-info {
+  margin-right: 32px;
+}
+.header-top-left .header-info a {
+  margin-left: 4px;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 600;
+  color: #858484;
+}
+
+/*# sourceMappingURL=style.css.map */

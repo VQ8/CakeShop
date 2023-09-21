@@ -1,0 +1,18 @@
+// mixin tương tự như function có thể sử dụng để truyền tham số và muốn sử dụng mixin thì @include
+//  $bien : Bien truyen vao;(có thể là biến hoặc các giá trị khác như màu ,..)
+@mixin btn-pink ($main-color: $main-color) {
+    color: #fff;
+    background-color: $main-color;
+    border-color: $main-color;
+}
+@mixin btn-pink-hover ($color: $main-hover-color) {
+    color: #fff;
+    background-color: $color;
+    border-color: $color;
+}
+
+// nút trắng có chữ hồng và border hồng
+@mixin btn-ouline-pink ($color: $main-color) {
+    color: $main-color;
+    border-color: $main-color;
+}
